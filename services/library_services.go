@@ -6,6 +6,7 @@ import (
 	"library_management/models"
 )
 
+// defining the LibraryManager interface
 type LibraryManager interface {
 	AddBook(models.Book)
 	RemoveBook(int)
